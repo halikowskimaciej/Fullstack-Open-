@@ -30,7 +30,8 @@ sequenceDiagram
     %% User enters new note, clicks "Save". 
 
     Browser->> Server: POST https://studies.cs.helsinki.fi/exampleapp/new_note
-    Server ->> Browser: code 302 - Found. 
+    Server ->> Browser: code 302 - Found.
+```
 
 <!-- Excercise 0.5 -->
 
@@ -60,6 +61,7 @@ sequenceDiagram
 
     Browser->>Server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
     Server ->> Browser: code 200 - OK
+```
 
 
 <!-- Excercise 0.6 -->
@@ -95,6 +97,7 @@ sequenceDiagram
 
     Browser->>Server: POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
     Server ->> Browser: code 201 - Created
+```
 
 
 
